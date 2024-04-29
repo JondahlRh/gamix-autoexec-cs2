@@ -34,3 +34,5 @@ High Dynamic Range = QUALITY
 FidelityFX Super Resolution = DISABLED (HIGHEST QUALITY)
 NVIDIA Reflex Low Latency = DISABLED
 ```
+
+5. (optional) Restart game
