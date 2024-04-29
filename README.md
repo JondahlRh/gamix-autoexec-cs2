@@ -30,6 +30,7 @@ Texture Filtering Mode = TRILINEAR
 Shader Detail = LOW
 Particle Detail = LOW
 Ambient Occlusion = DISABLED
-High Dynamic Resolution = DISABLED (HIGHEST QUALITY)
+High Dynamic Range = QUALITY
+FidelityFX Super Resolution = DISABLED (HIGHEST QUALITY)
 NVIDIA Reflex Low Latency = DISABLED
 ```
