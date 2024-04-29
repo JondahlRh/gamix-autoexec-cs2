@@ -17,7 +17,7 @@
 3. Add following line in the launch options of counterstrike
 
 ```
-+exec autoexec.cfg -full -w 1920 -h 1080 -refresh <YOUR_MONITOR_REFRESHRATE>
++exec autoexec.cfg -full -w 1920 -h 1080
 ```
 
 4. Change following advanced video settings inside counterstrike
