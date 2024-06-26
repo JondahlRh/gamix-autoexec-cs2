@@ -4,35 +4,28 @@
 
 1. Delete all files in your userdata steam folder
 
-```
+```markdown
 <STEAM_INSTALL_FOLDER>\userdata\<YOUR_STEAM32_ID>\730\local\cfg
 ```
 
 2. Add "autoexec.cfg" to your counterstrike folder
 
-```
+```markdown
 <STEAM_INSTALL_FOLDER>\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
 ```
 
 3. Add following line in the launch options of counterstrike
 
-```
-+exec autoexec.cfg -full -w 1920 -h 1080
+```sh
++exec autoexec.cfg
 ```
 
 4. Change following advanced video settings inside counterstrike
 
 ```
-Multisampling Anti-Aliasing Mode = 8X MSAA
-Global Shadow Quality = HIGH
-Model / Texture Detail = LOW
-Texture Filtering Mode = TRILINEAR
-Shader Detail = LOW
-Particle Detail = LOW
-Ambient Occlusion = DISABLED
-High Dynamic Range = QUALITY
-FidelityFX Super Resolution = DISABLED (HIGHEST QUALITY)
-NVIDIA Reflex Low Latency = DISABLED
+Fullscreen 1920x1080 240hz
 ```
+
+![video settings](video.png)
 
 5. (optional) Restart game
