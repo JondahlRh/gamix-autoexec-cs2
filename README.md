@@ -14,13 +14,19 @@
 <STEAM_INSTALL_FOLDER>\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
 ```
 
-3. Add following line in the launch options of counterstrike ("exec" for executing the config & "allow_third_party_software" for streaming)
+3. (optional) Add "cast.cfg" to your counterstrike folder (for cast config)
+
+```markdown
+<STEAM_INSTALL_FOLDER>\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
+```
+
+4. Add following line in the launch options of counterstrike ("exec" for executing the config & "allow_third_party_software" for streaming)
 
 ```sh
 +exec autoexec.cfg -allow_third_party_software
 ```
 
-4. Change following advanced video settings inside counterstrike
+5.  Change following advanced video settings inside counterstrike
 
 ```
 Fullscreen 1920x1080 240hz
@@ -28,4 +34,4 @@ Fullscreen 1920x1080 240hz
 
 ![video settings](video.png)
 
-5. (optional) Restart game
+6. (optional) Restart game
